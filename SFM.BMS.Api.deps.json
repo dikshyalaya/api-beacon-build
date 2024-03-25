@@ -9,12 +9,15 @@
       "SFM.BMS.Api/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "IPGeoLocation.IPGeolocation": "1.1.0",
           "LinqKit": "1.2.5",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.2",
           "Microsoft.EntityFrameworkCore.Design": "8.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.2",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.5",
+          "Newtonsoft.Json": "13.0.3",
+          "RestSharp": "110.2.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -98,6 +101,17 @@
         }
       },
       "Humanizer.Core/2.14.1": {},
+      "IPGeoLocation.IPGeolocation/1.1.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/IPGeolocation.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
       "LinqKit/1.2.5": {
         "dependencies": {
           "EntityFramework": "6.3.0",
@@ -477,6 +491,25 @@
           "System.CodeDom": "4.6.0"
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "RestSharp/110.2.0": {
+        "dependencies": {
+          "System.Text.Json": "8.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/RestSharp.dll": {
+            "assemblyVersion": "110.2.0.0",
+            "fileVersion": "110.2.0.0"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.6.0": {
         "dependencies": {
           "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
@@ -836,6 +869,13 @@
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
+    "IPGeoLocation.IPGeolocation/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-90pzXT4+RNfJ1RGf1yfbcLgnT9PmEG32YDftq/4kZWEg3W7uxmGhorElHUWC7I2GuI+9Y4TB+J6hU+U6X3XDmA==",
+      "path": "ipgeolocation.ipgeolocation/1.1.0",
+      "hashPath": "ipgeolocation.ipgeolocation.1.1.0.nupkg.sha512"
+    },
     "LinqKit/1.2.5": {
       "type": "package",
       "serviceable": true,
@@ -1143,6 +1183,20 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "RestSharp/110.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FXGw0IMcqY7yO/hzS9QrD3iNswNgb9UxJnxWmfOxmGs4kRlZWqdtBoGPLuhlbgsDzX1RFo4WKui8TGGKXWKalw==",
+      "path": "restsharp/110.2.0",
+      "hashPath": "restsharp.110.2.0.nupkg.sha512"
     },
     "runtime.native.System.Data.SqlClient.sni/4.6.0": {
       "type": "package",
